@@ -38,7 +38,6 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         
         cell.textLabel?.numberOfLines = 0
         let dict = arrAverage[indexPath.row]
-        debugPrint(dict)
         cell.textLabel?.text = "\(indexPath.row + 1). Name: \(dict.name) \n\nUser ID- \(dict.id) \n\nAverage Comments- \(dict.avgComments)"
         return cell
     }
