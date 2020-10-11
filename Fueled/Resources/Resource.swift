@@ -11,13 +11,3 @@ public enum Resource: String {
         return FileManager.default.contents(atPath: path)!
     }
 }
-
-//do {
-//    if let file = Bundle.main.url(forResource: self.rawValue, withExtension: "json") {
-//           return try Data(contentsOf: file)
-//       }
-//   } catch {
-//    print(error.localizedDescription)
-//    return nil
-//   }
-//return nil  

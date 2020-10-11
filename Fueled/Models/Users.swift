@@ -70,6 +70,7 @@ struct Users: Decodable {
     }
 }
 
+//MARK:- Average Comments
 struct AverageComments {
     var name: String
     var id: Int
